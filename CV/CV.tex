@@ -1,0 +1,98 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+
+% Header & Footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Muhammad Dawood Ismail}}
+\rhead{Page \thepage}
+\fancyfoot[C]{}
+
+% Defining color and spacing
+\usepackage{xcolor}
+\definecolor{sectioncolor}{HTML}{003049}
+\definecolor{headercolor}{HTML}{D62828}
+\setlength{\parindent}{0pt}
+
+% Command for section headers
+\newcommand{\CVSection}[1]{%
+    \vspace{12pt}
+    \textcolor{sectioncolor}{\Large\textbf{#1}} \\
+    \rule{\textwidth}{0.5mm}
+}
+
+% Begin Document
+\begin{document}
+
+% Header with Name and Contact Info
+\begin{center}
+    {\Huge \textbf{Muhammad Dawood Ismail}} \\
+    \vspace{4pt}
+    \href{mailto:dawoodrox123@gmail.com}{\faEnvelope\ \ dawoodrox123@gmail.com} \hspace{10pt}
+    \faPhone\ \ 0561035282 \hspace{10pt}
+    \faMapMarker\ \ Al Naimiya, Ajman, UAE \\
+    \faGithub\ \ \href{https://github.com/yourusername}{github.com/dawoodismail} \hspace{10pt}
+    \faLinkedin\ \ \href{https://www.linkedin.com/in/yourprofile}{linkedin.com/in/dawoodismail}
+\end{center}
+
+% Objective
+\CVSection{Personal Statement}
+A highly motivated and diligent student with a strong foundation in computer science and technical studies. Passionate about software development, I aim to utilize my programming skills to build innovative solutions and contribute to the tech industry. Seeking opportunities to expand my knowledge and skills in real-world applications.
+
+% Education
+\CVSection{Education}
+\textbf{AS Level – Cambridge International} \hfill [2019 – 2021] \\
+Completed advanced studies in mathematics, physics, and computer science, focusing on logical reasoning, problem-solving, and computational thinking.
+
+\textbf{AS Level – Pearson Edexcel} \hfill [2021] \\
+Further specialized in computer science and technical coursework, gaining deeper knowledge in programming languages and software development principles.
+
+\textbf{German A1 Certificate} \hfill Goethe Institute Dubai [2021] \\
+Certified in basic German language skills, demonstrating proficiency in communication.
+
+% Technical Skills
+\CVSection{Technical Skills}
+\textbf{Programming Languages}: Python, Java, C++ \\
+\textbf{Web Development}: HTML, CSS, JavaScript \\
+\textbf{Tools}: Git, LaTeX, VS Code, GitHub \\
+\textbf{Database Management}: SQL (Basic)
+
+% Projects
+\CVSection{Technical Projects}
+\textbf{Personal Portfolio Website} \hfill \textit{[2023]} \\
+Created a responsive portfolio website using GitHub Pages to showcase my technical skills and projects. The website is built with HTML, CSS, and JavaScript and includes sections for personal details, education, and experience.
+
+\textbf{Python Automation Scripts} \hfill \textit{[2022]} \\
+Developed automation scripts for data processing and repetitive tasks using Python. These scripts enhanced productivity and provided efficient solutions for daily tasks.
+
+\textbf{Basic Web Application} \hfill \textit{[2021]} \\
+Designed a basic web application allowing users to upload and view images. Integrated user authentication and image storage features using Flask and HTML/CSS.
+
+% Internship Experience
+\CVSection{Internship Experience}
+\textbf{BOYSEN-TU Dresden Summer School} \hfill \textit{[2021]} \\
+Participated in the summer program focused on "Mobility Transition from the Perspective of Social Sciences". Gained insight into the use of technology in modern transportation systems, particularly in urban planning.
+
+% Achievements
+\CVSection{Achievements}
+\begin{itemize}[leftmargin=15pt]
+    \item \textbf{German A1 Certification} from Goethe Institute Dubai.
+    \item \textbf{Completed BOYSEN-TU Dresden Summer School (2021)}.
+    \item \textbf{Developed and maintained a personal portfolio website on GitHub Pages}.
+\end{itemize}
+
+% Footer
+\vfill
+\textcolor{headercolor}{\hrule}
+\begin{center}
+    \textit{This CV was compiled using \LaTeX.} \\
+    Last Updated: \today
+\end{center}
+
+\end{document}
